@@ -1,0 +1,19 @@
+{
+  "name": "onedrive",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./dist/app.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "webpack --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "electron": "^4.0.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
